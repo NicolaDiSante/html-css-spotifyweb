@@ -6,7 +6,9 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: rgb(131, 43, 43);
+  background-color: rgb(56, 40, 40);
+  color: white;
+  font-size: 12px;
 }
 
 
@@ -16,42 +18,145 @@ body {
   clear: both;
 }
 
-
-
-
-.navbar-side {
+.container-left {
+  height: calc(100vh - 100px);
   width: 200px;
-  height: calc(100vh - 80px);
   background-color: black;
-  float: left;
+  color: gray;
 }
 
-.navbar-top {
-  height: 80px;
-  position: fixed;
-  width: calc(100vw - 200px);
-  float: left;
-  margin-left: 200px;
-  background-color: lightblue;
+.container-right {
+  width: calc(100% - 200px);
 }
 
-.navbar-bottom {
-  height: 80px;
-  background-color: gray;
+.float {
   float:left;
-  width: calc(100vw - 200px);
-  margin-top: 80px;
 }
 
-.content-cover {
-  height: calc(100vh - 240px);
-  width: calc(100vw - 200px);
-  background-color: lightcoral;
-  float: left;
-  overflow-y: scroll;
-}
-
-footer {
+.navbar {
   height: 80px;
   width: 100%;
 }
+
+.p-90 {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.navbar-top { 
+  width: calc(100vw - 200px);
+  background-color: rgba(63, 54, 54, 0.486);
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn {
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 10px 30px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 2px 2px black;
+  transform: scale(1.1) perspective(1px);
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.navbar-bottom {
+  margin-top: 80px;
+}
+
+footer {
+  position: fixed;
+  height: 100px;
+  background-color: rgb(80, 80, 80);
+  width: 100%;
+  z-index: 999;
+}
+
+img.logo {
+  margin: 15px 0;
+}
+
+.icon .fas {
+  font-size: 20px;
+}
+
+.icon .fa-plus-square {
+  font-size: 30px;
+}
+
+.icon-playlist {
+  display:flex;
+  align-items: center;
+}
+
+.icon-playlist a {
+  margin-left: 10px;
+}
+
+.profile-content {
+  width: 150px;
+  position: fixed;
+  bottom: 130px;
+  background-color: black;
+}
+
+
+
+
+.container-left .name-info {
+  color: white;
+  font-size: 18px;
+}
+
+
+.container-left .icon-home a{
+  color: white;
+}
+
+.container-left .name-info, .container-left .name-info a {
+  color: white;
+  font-size: 18px;
+}
+
+
+.container-left .icon{
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.icon.icon-app {
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+.container-left .text-playlist {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.container-left h4 {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
