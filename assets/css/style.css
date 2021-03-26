@@ -161,6 +161,11 @@ main section.content .covers-content {
   border-radius: 50%;
 }
 
+.nav-bottom .upper-box .fas.fa-arrow-circle-down {
+  padding-right: 10px;
+  padding-left: 2px;
+}
+
 
 
 
@@ -193,6 +198,46 @@ section.content .upgrade-content .btn{
 }
 
 /* /UPGRADE CONTENT */
+
+/* COVERS CONTENT */
+
+section.content .covers-content .menu-link {
+  height: 60px;
+}
+
+section.content .covers-content .menu-link ul {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section.content .covers-content .menu-link ul li{
+  display: inline;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+
+section.content .covers-content .menu-link ul li:hover a:after {
+  margin: auto;
+  display: block;
+  content: "";
+  background-color: greenyellow;
+  height: 1px;
+  width: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* /COVERS CONTENT */
 
 
 /* FOOTER */
