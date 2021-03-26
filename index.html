@@ -17,70 +17,136 @@
 </head>
 <body>
 
+
+  <div id="wrapper">
+
+  <!-- MAIN -->
+
+
   <main class="clearfix">
 
-    <div class="container container-left float">
-      <div class="navbar-side p-90 float">
-        <img class="logo" src="assets/img/logo.svg" alt="Spotify Logo">
-        <div class="icon icon-home">
-          <i class="fas fa-home"></i>
-          <a href="#">Home</a>
-        </div>
-        <div class="icon icon-search">
-          <i class="fas fa-search"></i>
-          <a href="#">Cerca</a>
-        </div>
-        <div class="icon icon-library">
-          <i class="fas fa-book"></i>
-          <a href="#">La tua Libreria</a>
-        </div>
-        <h4>Playlist</h4>
-        <div class="icon icon-playlist">
-          <i class="fas fa-plus-square"></i>
-          <a href="#">Crea Playlist</a>
-        </div>
-        <div class="text-playlist"><a href="#">Nome Playlist</a></div>
-        <div class="text-playlist"><a href="#">Nome Playlist</a></div>
-        <div class="text-playlist"><a href="#">Nome Playlist</a></div>
-        <div class="text-playlist"><a href="#">Nome Playlist</a></div>
-        <div class="text-playlist"><a href="#">Nome Playlist</a></div>
-        <div class="text-playlist"><a href="#">Nome Playlist</a></div>
-        <div class="text-playlist"><a href="#">Nome Playlist</a></div>
-        <div class="text-playlist"><a href="#">Nome Playlist</a></div>
+    <!-- SIDE NAVBAR -->
+
+      <div class="main-nav">
+
+        <div class="nav-top">
+
+          <div class="nav-logo p-90">
+            <a href="#"><img src="assets/img/logo.svg" alt="Logo"></a>
+          </div>
+          <div class="nav-logo-mobile">
+           <a href="#"><img src="assets/img/logo-small.svg" alt="Logo"></a> 
+          </div>
+
+          <ul id="icon-top">
+            <li id="home-icon" class="icon">
+              <a href="#">
+                <img src="assets/img/home.svg" alt="home">
+                <span>Home</span>
+              </a>
+              
+            </li>
+            <li id="search-icon" class="icon">
+              <a href="#">
+                <img src="assets/img/search.svg" alt="search">
+                <span>Cerca</span>
+              </a>
+              
+               
+            </li>
+            <li id="library-icon" class="icon">
+              <a href="#">
+                <img src="assets/img/libreria.svg" alt="Library">
+               <span>La tua libreria</span>
+              </a>
+              
+            </li>
+                
+          </ul>
+
+          <ul id="icon-playlist" class="p-90">
+            <li>PLAYLIST</li>
+            <li>
+              <a href="#">
+                <span id="square-plus">+</span>
+               Crea Playlist
+              </a>
+            </li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            
+          </ul>
 
 
-        <div class="profile-content">
-          <div class="icon icon-app">
+        </div>
+        <div class="nav-bottom p-90">
+          <div class="upper-box">
             <i class="fas fa-arrow-circle-down"></i>
-            <a href="#">Installa App</a>
+            Installa App
           </div>
-          <div class="name-info">
-            <i class="fas fa-user-circle"></i>
-            <a href="#">John Doe</a>
-          </div>
+          <div class="lower-box">
+            <img src="assets/img/profile.svg" alt="profile">
+            John Doe</div>
         </div>
-
-
       </div>
 
-      
-    </div>
+    <!-- /SIDE NAVBAR -->
 
-    <div class="container container-right float">
-      <nav class="navbar navbar-top">
-        <div class="btn"><a href="#">Effettua l'upgrade</a> </div>
-      </nav>
-      <nav class="navbar navbar-bottom">In evidenza</nav>
-      <div class="content-main ">Recently Played</div>
-    </div>
+
+    <!-- MAIN CONTENT -->
+
+      <section class="content">
+
+        <div class="upgrade-content">
+          <div class="btn">
+            <a href="#">Effettua l'upgrade</a>
+          </div>
+        </div>
+
+        <div class="covers-content">
+          Copertine
+        </div>
+
+
+      </section>
+
+    <!-- /MAIN CONTENT -->
+
+
+
 
   </main>
 
-  <footer>Play Stop Repeat</footer>
-  
-    
+
+  <!-- /MAIN -->
+
+
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+    <section class="player">
+      <div class="player-album">SX</div>
+      <div class="player-audio">CN</div>
+      <div class="player-volume">DX</div>
+    </section>
+  </footer>
+
+  <!-- /FOOTER -->
+
+</div>
+
 
   
   
 </body>
 </html>
+
+
+
