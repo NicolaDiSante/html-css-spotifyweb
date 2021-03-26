@@ -259,6 +259,10 @@ section.content .covers-content .menu-link ul li:hover a:after {
   width: 100%;
 }
 
+section.content .menu-covers {
+  margin-bottom: 20px;
+}
+
 .row-cover.row-cover-two {
   justify-content: flex-start;
 }
@@ -268,7 +272,7 @@ section.content .covers-content .menu-link ul li:hover a:after {
   text-align: center;
 }
 
-.row-cover .info-text h3 {
+.row-cover .info-text h3, h2 {
   color: rgb(255, 255, 255);
   margin-bottom: 5px;
 }
