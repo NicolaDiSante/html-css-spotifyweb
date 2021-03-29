@@ -126,6 +126,7 @@ main section.content .covers-content {
   margin-right: 10px;
 }
 
+
 .main-nav .nav-top #icon-top{
   margin-bottom: 20px;
 }
@@ -182,9 +183,9 @@ main section.content .covers-content {
 
 section.content .upgrade-content .btn{
   height: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  height: 90px;
+  line-height: 90px;
+  text-align: right;
 }
 
 .upgrade-content .btn a {
@@ -406,9 +407,15 @@ footer section.player .player-audio .player-audio-bottom .volume-bar:hover .circ
 
 /* MEDIA QUARY */
 
-@media all and (max-width: 600px) {
+/* extra-small */
+
+@media all and (max-width: 768px) {
   main .main-nav .nav-top .nav-logo-mobile {
     display: block;
+  }
+
+  main .main-nav span, #icon-playlist {
+    display:none;
   }
 
   main .main-nav .nav-top .nav-logo {
@@ -422,8 +429,35 @@ footer section.player .player-audio .player-audio-bottom .volume-bar:hover .circ
   main section.content, main section.content .upgrade-content {
     width: calc(100% - 50px);
   }
+
+  section.content .covers-content .menu-link ul {
+    flex-wrap: wrap;
+  }
 }
 
+@media all and (min-width: 769px) and (max-width: 991px){
+
+  section.content .covers-content .menu-link ul {
+    flex-wrap: wrap;
+  }
+
+  .player-album{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+
+
+
+@media all and (max-width: 991px) {
+  section.content .covers-content .menu-link ul {
+    flex-wrap: wrap;
+  }
+}
+
+ 
 
 
 
